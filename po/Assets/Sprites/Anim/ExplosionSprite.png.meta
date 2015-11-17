@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 05bc4ee2cac16d547b54d600e3d292e5
-timeCreated: 1447741458
+timeCreated: 1447744415
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ExplosionSprite_0
+    21300002: ExplosionSprite_1
+    21300004: ExplosionSprite_3
+    21300006: ExplosionSprite_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +42,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +53,47 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: ExplosionSprite_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1204
+        width: 779
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ExplosionSprite_1
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1001
+        width: 989
+        height: 1047
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ExplosionSprite_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 164
+        width: 789
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ExplosionSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 331
+        width: 384
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

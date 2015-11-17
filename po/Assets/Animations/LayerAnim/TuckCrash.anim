@@ -1,0 +1,697 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TuckCrash
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: .0436193943, w: .999048233}
+        inSlope: {x: 0, y: 0, z: -.0435950607, w: .00182390213}
+        outSlope: {x: 0, y: 0, z: -.0435950607, w: .00182390213}
+        tangentMode: 0
+      - time: .0833333358
+        value: {x: 0, y: 0, z: .0399864726, w: .999200225}
+        inSlope: {x: 0, y: 0, z: -.0435982794, w: .00174450874}
+        outSlope: {x: 0, y: 0, z: -.0435982794, w: .00174450874}
+        tangentMode: 0
+      - time: .166666672
+        value: {x: 0, y: 0, z: .0363530144, w: .999338984}
+        inSlope: {x: 0, y: 0, z: -.0436043143, w: .0015860796}
+        outSlope: {x: 0, y: 0, z: -.0436043143, w: .0015860796}
+        tangentMode: 0
+      - time: .25
+        value: {x: 0, y: 0, z: .0327190869, w: .999464571}
+        inSlope: {x: 0, y: 0, z: -.043609757, w: .00142765045}
+        outSlope: {x: 0, y: 0, z: -.043609757, w: .00142765045}
+        tangentMode: 0
+      - time: .333333343
+        value: {x: 0, y: 0, z: .0290847216, w: .999576926}
+        inSlope: {x: 0, y: 0, z: -.0436146818, w: .00126922119}
+        outSlope: {x: 0, y: 0, z: -.0436146818, w: .00126922119}
+        tangentMode: 0
+      - time: .416666687
+        value: {x: 0, y: 0, z: .0254499726, w: .999676108}
+        inSlope: {x: 0, y: 0, z: -.0436190031, w: .00111043453}
+        outSlope: {x: 0, y: 0, z: -.0436190031, w: .00111043453}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: .0218148883, w: .999761999}
+        inSlope: {x: 0, y: 0, z: -.0436227657, w: .000951647991}
+        outSlope: {x: 0, y: 0, z: -.0436227657, w: .000951647991}
+        tangentMode: 0
+      - time: .583333313
+        value: {x: 0, y: 0, z: .0181795135, w: .999834716}
+        inSlope: {x: 0, y: 0, z: -.0436259359, w: .000793576473}
+        outSlope: {x: 0, y: 0, z: -.0436259359, w: .000793576473}
+        tangentMode: 0
+      - time: .666666627
+        value: {x: 0, y: 0, z: .0145439012, w: .999894261}
+        inSlope: {x: 0, y: 0, z: -.0436285213, w: .000634789583}
+        outSlope: {x: 0, y: 0, z: -.0436285213, w: .000634789583}
+        tangentMode: 0
+      - time: .74999994
+        value: {x: 0, y: 0, z: .0109080952, w: .999940515}
+        inSlope: {x: 0, y: 0, z: -.0436305329, w: .000475645182}
+        outSlope: {x: 0, y: 0, z: -.0436305329, w: .000475645182}
+        tangentMode: 0
+      - time: .833333254
+        value: {x: 0, y: 0, z: .00727214711, w: .999973536}
+        inSlope: {x: 0, y: 0, z: -.0436319932, w: .000317215978}
+        outSlope: {x: 0, y: 0, z: -.0436319932, w: .000317215978}
+        tangentMode: 0
+      - time: .916666567
+        value: {x: 0, y: 0, z: .00363609777, w: .999993384}
+        inSlope: {x: 0, y: 0, z: -.043632865, w: .000158786759}
+        outSlope: {x: 0, y: 0, z: -.043632865, w: .000158786759}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: -.043633122, w: 7.93932923e-05}
+        outSlope: {x: 0, y: 0, z: -.043633122, w: 7.93932923e-05}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Car/Truck
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 4, z: 0}
+        outSlope: {x: 0, y: 4, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 2, z: 0}
+        inSlope: {x: 0, y: -.700000048, z: 0}
+        outSlope: {x: 0, y: -.700000048, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: -.699999988, z: 0}
+        inSlope: {x: 0, y: -5.4000001, z: 0}
+        outSlope: {x: 0, y: -5.4000001, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Car/Truck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.12699997, y: .884000003, z: 0}
+        inSlope: {x: 0, y: -.00800001621, z: 0}
+        outSlope: {x: 0, y: -.0120000243, z: 0}
+        tangentMode: 0
+      - time: .333333343
+        value: {x: -1.12699997, y: .879999995, z: 0}
+        inSlope: {x: 0, y: -.0120000243, z: 0}
+        outSlope: {x: 0, y: 4.23599958, z: 0}
+        tangentMode: 0
+      - time: .666666687
+        value: {x: -1.12699997, y: 2, z: 0}
+        inSlope: {x: 0, y: -1.1920929e-07, z: 0}
+        outSlope: {x: 0, y: -1.1920929e-07, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: -1.12699997, y: .879999995, z: 0}
+        inSlope: {x: 0, y: -3.36000013, z: 0}
+        outSlope: {x: 0, y: -3.36000013, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Car/Truck/Bird
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 12
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 1517672123
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3526906305
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1517672123
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4
+        outSlope: 4
+        tangentMode: 10
+      - time: .5
+        value: 2
+        inSlope: -.700000048
+        outSlope: -.700000048
+        tangentMode: 10
+      - time: 1
+        value: -.699999988
+        inSlope: -5.4000001
+        outSlope: -5.4000001
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .0833333358
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .416666687
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .583333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .666666627
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .74999994
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333254
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666567
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .0833333358
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .25
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .416666687
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .583333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .666666627
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .74999994
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333254
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666567
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0436193943
+        inSlope: -.0435950607
+        outSlope: -.0435950607
+        tangentMode: 0
+      - time: .0833333358
+        value: .0399864726
+        inSlope: -.0435982794
+        outSlope: -.0435982794
+        tangentMode: 0
+      - time: .166666672
+        value: .0363530144
+        inSlope: -.0436043143
+        outSlope: -.0436043143
+        tangentMode: 0
+      - time: .25
+        value: .0327190869
+        inSlope: -.043609757
+        outSlope: -.043609757
+        tangentMode: 0
+      - time: .333333343
+        value: .0290847216
+        inSlope: -.0436146818
+        outSlope: -.0436146818
+        tangentMode: 0
+      - time: .416666687
+        value: .0254499726
+        inSlope: -.0436190031
+        outSlope: -.0436190031
+        tangentMode: 0
+      - time: .5
+        value: .0218148883
+        inSlope: -.0436227657
+        outSlope: -.0436227657
+        tangentMode: 0
+      - time: .583333313
+        value: .0181795135
+        inSlope: -.0436259359
+        outSlope: -.0436259359
+        tangentMode: 0
+      - time: .666666627
+        value: .0145439012
+        inSlope: -.0436285213
+        outSlope: -.0436285213
+        tangentMode: 0
+      - time: .74999994
+        value: .0109080952
+        inSlope: -.0436305329
+        outSlope: -.0436305329
+        tangentMode: 0
+      - time: .833333254
+        value: .00727214711
+        inSlope: -.0436319932
+        outSlope: -.0436319932
+        tangentMode: 0
+      - time: .916666567
+        value: .00363609777
+        inSlope: -.043632865
+        outSlope: -.043632865
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: -.043633122
+        outSlope: -.043633122
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .999048233
+        inSlope: .00182390213
+        outSlope: .00182390213
+        tangentMode: 0
+      - time: .0833333358
+        value: .999200225
+        inSlope: .00174450874
+        outSlope: .00174450874
+        tangentMode: 0
+      - time: .166666672
+        value: .999338984
+        inSlope: .0015860796
+        outSlope: .0015860796
+        tangentMode: 0
+      - time: .25
+        value: .999464571
+        inSlope: .00142765045
+        outSlope: .00142765045
+        tangentMode: 0
+      - time: .333333343
+        value: .999576926
+        inSlope: .00126922119
+        outSlope: .00126922119
+        tangentMode: 0
+      - time: .416666687
+        value: .999676108
+        inSlope: .00111043453
+        outSlope: .00111043453
+        tangentMode: 0
+      - time: .5
+        value: .999761999
+        inSlope: .000951647991
+        outSlope: .000951647991
+        tangentMode: 0
+      - time: .583333313
+        value: .999834716
+        inSlope: .000793576473
+        outSlope: .000793576473
+        tangentMode: 0
+      - time: .666666627
+        value: .999894261
+        inSlope: .000634789583
+        outSlope: .000634789583
+        tangentMode: 0
+      - time: .74999994
+        value: .999940515
+        inSlope: .000475645182
+        outSlope: .000475645182
+        tangentMode: 0
+      - time: .833333254
+        value: .999973536
+        inSlope: .000317215978
+        outSlope: .000317215978
+        tangentMode: 0
+      - time: .916666567
+        value: .999993384
+        inSlope: .000158786759
+        outSlope: .000158786759
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 7.93932923e-05
+        outSlope: 7.93932923e-05
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.12699997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333343
+        value: -1.12699997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .666666687
+        value: -1.12699997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: -1.12699997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Car/Truck/Bird
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .884000003
+        inSlope: -.00800001621
+        outSlope: -.0120000243
+        tangentMode: 21
+      - time: .333333343
+        value: .879999995
+        inSlope: -.0120000243
+        outSlope: 4.23599958
+        tangentMode: 5
+      - time: .666666687
+        value: 2
+        inSlope: -1.1920929e-07
+        outSlope: -1.1920929e-07
+        tangentMode: 10
+      - time: 1
+        value: .879999995
+        inSlope: -3.36000013
+        outSlope: -3.36000013
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Car/Truck/Bird
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .666666687
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Car/Truck/Bird
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5
+        inSlope: -5
+        outSlope: -5
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -5
+        outSlope: -5
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: Car/Truck
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
