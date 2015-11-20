@@ -6,7 +6,7 @@ TagManager:
   tags:
   - ground
   - ball
-  - Tag3
+  - ironBall
   - Tank
   layers:
   - Default
