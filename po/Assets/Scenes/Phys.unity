@@ -319,7 +319,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 103
+  m_SortingOrder: 104
   m_Sprite: {fileID: 21300000, guid: d9f81a430e5c4694395b69e79db78eca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &108824447
@@ -1118,7 +1118,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 103
   m_Sprite: {fileID: 21300000, guid: c53dc771dade91f48965228cd4ec187a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1000673630
@@ -1294,7 +1294,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 103
+  m_SortingOrder: 104
   m_Sprite: {fileID: 21300000, guid: d9f81a430e5c4694395b69e79db78eca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1215668215
@@ -1348,7 +1348,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 102
+  m_SortingOrder: 103
   m_Sprite: {fileID: 21300000, guid: 3402f17663757094abf38ca617890a3a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1215845190
@@ -1958,7 +1958,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 102
+  m_SortingOrder: 103
   m_Sprite: {fileID: 21300000, guid: 3402f17663757094abf38ca617890a3a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1988241892
@@ -2012,7 +2012,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 103
   m_Sprite: {fileID: 21300000, guid: c53dc771dade91f48965228cd4ec187a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1988638137
@@ -2026,6 +2026,7 @@ GameObject:
   - 95: {fileID: 1988638139}
   - 114: {fileID: 1988638140}
   - 60: {fileID: 1988638141}
+  - 50: {fileID: 1988638142}
   m_Layer: 0
   m_Name: Krab
   m_TagString: Untagged
@@ -2128,6 +2129,22 @@ PolygonCollider2D:
       - {x: .239999995, y: -.455000013}
       - {x: .349999994, y: -.425000012}
       - {x: .519999981, y: -.36500001}
+--- !u!50 &1988638142
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1988638137}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2115251948
 GameObject:
   m_ObjectHideFlags: 0
