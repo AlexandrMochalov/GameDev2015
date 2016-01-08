@@ -8,6 +8,12 @@ public class MG1Plate : MonoBehaviour {
     public int row;
     public int col;
 
+    void Awake ()
+    {
+        IsOpen = false;
+        Change ();
+    }
+
     void OnMouseDown() {
         //Change ();
         Game.OnPlateMouseDown(row, col);

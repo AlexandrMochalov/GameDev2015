@@ -270,5 +270,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prototype: {fileID: 396647929}
-  _colCount: 5
+  _colCount: 4
   _rowCount: 4
