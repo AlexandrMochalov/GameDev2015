@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{953F51C3-9EE6-0504-6F8D-FCB4649CF201}</ProjectGuid>
+    <ProjectGuid>{691610D8-AF4E-7883-6A00-1F3FAE767AE9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,28 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Loading.cs" />
-     <Compile Include="Assets\MG1\MG1Game.cs" />
-     <Compile Include="Assets\MG1\MG1Plate.cs" />
-     <Compile Include="Assets\MiniGame01\Scripts\CellMiniGame01.cs" />
-     <Compile Include="Assets\MiniGame01\Scripts\MiniGame01.cs" />
-     <Compile Include="Assets\MySceneManager.cs" />
-     <Compile Include="Assets\PhysScene.cs" />
-     <Compile Include="Assets\Rocket.cs" />
-     <Compile Include="Assets\Runer\Scripts\CharScript.cs" />
-     <Compile Include="Assets\Runer\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Runer\Scripts\LevelGenerator.cs" />
-     <Compile Include="Assets\Scripts\Ball.cs" />
-     <Compile Include="Assets\Scripts\BulletCreator.cs" />
-     <Compile Include="Assets\Scripts\KeyListener.cs" />
-     <Compile Include="Assets\Scripts\KrabController.cs" />
-     <Compile Include="Assets\Scripts\LayerAnim.cs" />
-     <Compile Include="Assets\Scripts\MySecondsScript.cs" />
-     <Compile Include="Assets\Scripts\New.cs" />
-     <Compile Include="Assets\Scripts\Score.cs" />
-     <Compile Include="Assets\UIController.cs" />
-     <Compile Include="Assets\UIEventListener.cs" />
-     <Compile Include="Assets\VikaRandom.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -74,10 +56,6 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{691610D8-AF4E-7883-6A00-1F3FAE767AE9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
