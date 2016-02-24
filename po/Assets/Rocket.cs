@@ -16,5 +16,9 @@ public class Rocket : MonoBehaviour {
             anim.SetBool("Right", false);
 
         anim.SetBool("Run", Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow));
+
+        Vector3 point1 = new Vector3(1f, 1f, 1f);
+        Vector3 point2 = new Vector3(2f, 3f, 4f);
+        float distance = (point1 - point2).magnitude;
     }
 }

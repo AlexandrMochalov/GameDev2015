@@ -3,41 +3,50 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Drag : MonoBehaviour {
-    public enum CardType
-    {
-        Heatrs,
-        Diamonds,
-        Clovers,
-        Pikes
-    }
-
-    public enum CardColor {
-        Red,
-        Black
-    }
-    
     public Vector3 Offset = Vector3.zero;
-    public CardType Type = CardType.Heatrs;
-    public int Value;
-    public CardColor ColorType = CardColor.Red;
-
+    
     bool isMouseDown = false;
     bool isDrag = false;
     Vector3 startPosition;
     string sortindLayerName;
+    public Slot currentSlot;
 
     List<Slot> slots = new List<Slot> ();
-    Slot currentSlot;
 
-    void Start() {
+    public virtual void Init()
+    {
+        if (GetComponent<Rigidbody2D>() == null)
+        {
+            var rb = gameObject.AddComponent<Rigidbody2D>();
+            rb.isKinematic = true;
+        }
+        if (GetComponent<Collider2D>() == null)
+        {
+            gameObject.AddComponent<BoxCollider2D>();
+        }
         startPosition = transform.position;
-        ColorType = (Type == CardType.Diamonds || Type == CardType.Heatrs) ? CardColor.Red : CardColor.Black;
         sortindLayerName = GetComponent<SpriteRenderer>().sortingLayerName;
     }
 
+    void Start() {
+        Init ();
+    }
+
+    public virtual bool IsCanStartDrag() {
+        return true; 
+    }
+
     void OnMouseDown() {
+        if (!IsCanStartDrag()) return;
         isMouseDown = true;
         GetComponent<SpriteRenderer>().sortingLayerName = "Drag";
+        startPosition = transform.position;
+    }
+
+    public virtual void OnDrop (Slot slot) {
+    }
+
+    public virtual void OnDragUpdate(Vector3 delta) {
     }
 
     void OnMouseUp() {
@@ -66,18 +75,14 @@ public class Drag : MonoBehaviour {
                 }
             }
             nearest.OnDrop(this);
-            currentSlot = nearest;
-
-            var pos = nearest.transform.position;
-            iTween.MoveTo(gameObject
-                , iTween.Hash("position", new Vector3 (pos.x, pos.y, transform.position.z)));
-            GetComponent<SpriteRenderer>().sortingLayerName = sortindLayerName;
-        }
+            OnDrop(nearest);
+    }
     }
 
     void OnCancalDragMoveEnd() {
+        
         GetComponent<SpriteRenderer>().sortingLayerName = sortindLayerName;
-        GetComponent<SpriteRenderer>().sortingOrder = 1;
+        //GetComponent<SpriteRenderer>().sortingOrder = 1;
     }
 
     float GetDistanceForSlot (Slot slot)
@@ -98,19 +103,25 @@ public class Drag : MonoBehaviour {
 
         var mousePos = Input.mousePosition;
         var worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
-        
-        transform.position = Offset + new Vector3 (worldPosition.x
+        var newPosition = Offset + new Vector3(worldPosition.x
             , worldPosition.y
             , transform.position.z);
+
+        var delta = newPosition - transform.position;
+        transform.position = newPosition;
+        
+        OnDragUpdate(delta);
     }
 
     void OnTriggerEnter2D(Collider2D other) {
+        if (!isDrag) return;
         var slot = other.GetComponent<Slot>();
         if (slot != null && slot.CanReceiveDrop(this))
             slots.Add(slot);
     }
 
     void OnTriggerExit2D(Collider2D other) {
+        if (!isDrag) return;
         var slot = other.GetComponent<Slot>();
         if (slot != null && slots.Contains(slot))
             slots.Remove(slot);
