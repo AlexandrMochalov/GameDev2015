@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PacmanCharacter : MonoBehaviour {
-    protected enum State { None, Up, Right, Left, Down, Die }
+    public enum State { None, Up, Right, Left, Down, Die }
 
     public float Speed = 0.25f;
     public PacmanCollider RightCollider;
@@ -54,5 +54,10 @@ public class PacmanCharacter : MonoBehaviour {
 
         if (result) _state = state;
         return result;
+    }
+
+    public virtual void OnWallCollision(PacmanCollider collider)
+    {
+
     }
 }

@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class PacmanPlayer : PacmanCharacter {
+    [SerializeField]
+    private PacmanLevel _levelController;
     private Animator _anim;
 
     void Start () {
@@ -25,11 +27,30 @@ public class PacmanPlayer : PacmanCharacter {
         transform.position += _velocity;
     }
 
-    void OnTriggerEnter2D (Collider2D other)
+    public void OnDetect (Collider2D other)
     {
+        switch (other.tag)
+        {
+            case ("smallPoint"):
+                other.gameObject.SetActive(false);
+                _levelController.OnSmallPoint();
+                break;
+            case ("bigPoint"):
+                other.gameObject.SetActive(false);
+                _levelController.OnBigPoint();
+                break;
+            case ("enemy"):
+                _levelController.OnCasper(other.GetComponent<Casper>());
+                break;
+            case "cherry":
+                _levelController.OnCherry();
+                other.gameObject.SetActive(false);
+                break;
+        }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    public void Die()
     {
+        gameObject.SetActive(false);
     }
 }

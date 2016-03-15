@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476136}
+  - 58: {fileID: 5832870}
+  - 114: {fileID: 11457594}
+  m_Layer: 0
+  m_Name: Detector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &115254
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,7 +118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &182872
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,8 +187,21 @@ Transform:
   - {fileID: 418854}
   - {fileID: 420150}
   - {fileID: 496936}
+  - {fileID: 476136}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &476136
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 440446}
+  m_RootOrder: 6
 --- !u!4 &479456
 Transform:
   m_ObjectHideFlags: 1
@@ -225,6 +255,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &5832870
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102910}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.2
 --- !u!61 &6120020
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -236,9 +280,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.365}
+  m_Offset: {x: 0, y: -0.27}
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.1}
+  m_Size: {x: 0.44, y: 0.1}
 --- !u!61 &6129566
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -250,9 +294,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.365}
+  m_Offset: {x: 0, y: 0.27}
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.1}
+  m_Size: {x: 0.44, y: 0.1}
 --- !u!61 &6146310
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -264,9 +308,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.365, y: 0}
+  m_Offset: {x: 0.27, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.5}
+  m_Size: {x: 0.1, y: 0.44}
 --- !u!61 &6186962
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -278,9 +322,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: -0.365, y: 0}
+  m_Offset: {x: -0.27, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.5}
+  m_Size: {x: 0.1, y: 0.44}
 --- !u!95 &9521616
 Animator:
   serializedVersion: 3
@@ -336,6 +380,19 @@ MonoBehaviour:
   LeftCollider: {fileID: 11475482}
   TopCollider: {fileID: 11428214}
   BottomCollider: {fileID: 11423524}
+  _levelController: {fileID: 0}
+--- !u!114 &11457594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a48c181d28f9c41ad7c66e6c4d2831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 11433766}
 --- !u!114 &11475482
 MonoBehaviour:
   m_ObjectHideFlags: 1
